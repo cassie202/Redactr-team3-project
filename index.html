@@ -10,8 +10,34 @@
 </head>
 <body>
     
-    <h2>Changing this text to check something</h2>
+   <main class="flex-container">
+      <h3>Group-3 Redact Project</h3>
+      <div class="container">
+        <div class="input-copy">
+          <h3>Type text to Redact</h3>
+          <textarea name="type-texts" id="text-area" 
+          cols="30" rows="10"> </textarea>
+        </div>
 
+        <div class="form">
+          <form action="">
+            <label for="redact-words">Words to redact</label>
+            <input name = "type-texts" type="text"                        id="texts-to-redact">
+
+            <label for="replace-char">Replace                             character</label>
+              <input name="type-char" type="text" 
+              id="replace-char">
+          </form>
+          <button class="btn" id="btn">Redact</button>
+        </div>
+
+        <div class="output-copy">
+          <h3>Document Output</h3>
+          <textarea name="display-text" id="display-output" 
+          cols="30" rows="10"> </textarea>
+        </div>
+      </div>
+    </main>
     <!-- // ============= EEND DO NOT EDIT ============== // -->
     <script src="index.mjs" type="module"></script>
     <!-- // ============= EEND DO NOT EDIT ============== // -->
